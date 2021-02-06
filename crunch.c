@@ -1,8 +1,5 @@
-#define MY_NULL (void * ) 0xfffffffful
 #define swap(t ,a , b) {t temp ; temp = a ; a=b ;b=temp ; }
 #include<stdio.h>
-#include<stdio.h>
-
 int power(int n , int c ) {
     int r = 1 ;
     while (c>0)
