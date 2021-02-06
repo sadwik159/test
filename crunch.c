@@ -63,7 +63,7 @@ void crunch(char * arr , int min , int max ) // not cool but base
         gen_number +=lines;
         while (lines>0)
         {
-            /// output i have to change make it faster 
+            /// output i have to change this make it faster 
             for (int i = 0; i < min; i++)
             {
                 putc(*word[i], stdout);
