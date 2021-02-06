@@ -49,7 +49,7 @@ void crunch(char * arr , int min , int max ) // not cool but base
     const int len = strlen(arr);
     int j  , lines ; 
     ///FILE * sync = fopen("result.txt","w+" );
-    ///sort the arr for a patr find so
+    ///sort the arr to creat a pattern
     q_sort(arr , 0 , len-1); 
     //char stop = arr[len-1]; 
     char * stop = arr + len -1 ; /// try this is better 
