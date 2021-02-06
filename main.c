@@ -94,7 +94,7 @@ void crunch(char * arr , int min , int max ) // not cool but base
 }
 int main () // one sec wow
 {  
-    char arr [] = "0123456789"; 
+    char arr [] = "01"; 
     crunch(arr , 4,4); 
     return 0 ;
 }
